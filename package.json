@@ -1,0 +1,44 @@
+{
+  "name": "notes-react-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a simple note taking app using React.js and Redux.",
+  "author": "Ankit Dutta",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "start": "serve -s dist -l 3000",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "clsx": "^2.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-redux": "^9.3.0",
+    "redux-persist": "^6.0.0",
+    "sweetalert2": "^11.26.25"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/react-redux": "^7.1.35",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "globals": "^16.5.0",
+    "serve": "^14.2.6",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^6.4.5"
+  },
+  "packageManager": "pnpm@12.6.0+sha512.3ef68f951cb111ac204b4a5a16f0b2ddf0da56a96e0413e81d855d9f0b55ef926714709028e1cd00c405c2c5fb7b9e8ec4dc46777c805d0373c2f2ff00fd20ec",
+  "engines": {
+    "node": "24"
+  }
+}
